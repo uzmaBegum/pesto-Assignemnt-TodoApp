@@ -1,0 +1,7 @@
+<app-page-title></app-page-title>
+
+<app-task-title
+  [taskData]="taskData"
+  (markedComplete)="onComplete($event)"
+  (markedImportant)="onImportant($event)"
+></app-task-title>

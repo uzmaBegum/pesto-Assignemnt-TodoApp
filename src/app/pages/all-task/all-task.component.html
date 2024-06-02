@@ -1,0 +1,22 @@
+<app-page-title (search)="search($event)"></app-page-title>
+<div class="block rounded-lg bg-white p-6 text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-black">
+    <div class="flex-mt-6">
+      <input type="text" class="w-96 h-16 px-4 py-2 rounded shadow" placeholder=" Enter Task Title" [(ngModel)] = "newTasktitle">
+      <div clas></div>
+    </div><br>
+    <div class="flex-mt-6">
+        <textarea id="message" rows="4" class="w-96 h-16 px-4 py-2 rounded shadow"  placeholder=" Enter Task Decription" [(ngModel)] = "newTaskDescription"></textarea>
+
+      </div><br>
+    <div class="flex space-x-4 mb-6 text-sm font-medium">
+        <div class="flex-auto flex space-x-4">
+          <button class="h-10 px-6 font-semibold rounded-md bg-black text-white" type="submit" (click)="addTask()">
+            Add
+          </button>
+          <button class="h-10 px-6 font-semibold rounded-md border border-slate-200 text-slate-900" type="button" (click)="cancelTask()">
+            Cancel
+          </button>
+        </div>
+  </div>
+  </div>
+    <app-task-title [taskData]="taskData" (markedComplete)="onComplete($event)" (markedImportant)="onImportant($event)" (markedPending)="markPending($event)"></app-task-title>

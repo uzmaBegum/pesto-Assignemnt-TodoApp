@@ -1,0 +1,51 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Learn Angular",
+      "descrption": "Here is the New project Creation ",
+      "completed": true,
+      "important": "true",
+      "status": "Completed"
+    },
+    {
+      "id": "4750",
+      "title": "Learn Angular Part 2",
+      "description": "Learn Angular Part 2",
+      "important": "true",
+      "completed": "",
+      "status": "Pending",
+      "pending": "true"
+    },
+    {
+      "id": "bdb1",
+      "title": "Tailwind Css part 1",
+      "description": "Tailwind Css part 1",
+      "completed": "",
+      "important": "true",
+      "status": "Pending",
+      "pending": "true"
+    },
+    {
+      "id": "7f77",
+      "title": "Mean stack developement project",
+      "description": "Mean stack developement project In description",
+      "important": "",
+      "status": "Pending",
+      "pending": "true"
+    },
+    {
+      "id": "227f",
+      "title": "Task Added Description",
+      "description": "Task Added Description part 1",
+      "important": "true",
+      "status": "To Do"
+    },
+    {
+      "id": "0338",
+      "title": "Test Case 2",
+      "description": "Checking all the buttons",
+      "status": "To Do"
+    }
+  ]
+}
